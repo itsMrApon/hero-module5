@@ -1,0 +1,34 @@
+h1 {
+  color: blue;
+}
+/* h1 er upore mouse porle color change kora jay */
+h1:hover {
+  color: tomato;
+  background-color: yellow;
+}
+/* classndore change korar jonno bebhoar hoy */
+.change-color{
+  color: blueviolet;
+  font-weight: 900;
+  background-color: brown;
+/* link e visit e akbar hoye gele new color show korar joonno */
+}
+a:visited{
+  color: red;
+}
+/* li er list e specific color dewar jonno bebhoar hoy */
+li:first-child{
+  color: red;
+}
+li:last-child{
+  color: blueviolet;
+}
+li:nth-child(2n){
+  color: aqua;
+}
+/* kono line e new kisu add korte chaile */
+h1::before{
+  contain: 'hello';
+  background-color: black;
+
+}

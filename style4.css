@@ -1,0 +1,40 @@
+.course{
+  border: 1px dashed pink;
+  width: 200px;
+
+}
+/* img ke soranor jonno bebhar hoy */
+.img1{
+  /* static dile normal jei jagay dewa hoche sai jagatei thakbe */
+  /* position: static; */
+  /* relative korle parent er position dore upore niche utha nama korano jay */
+  position: relative;
+  width: 10%;
+  /* absulate thakle position parent er kase absulate hoye thn kaj korbe */
+  /* position: absolute; */
+  /* stiky thakle scroll korthe thakle parent er modhe fixed position e  stickiy hoye thakbe */
+  /* position: sticky; */
+  /* fixed thakle jai jagay bosano ase sai jagatei fixed thakbe */
+  /* position: fixed; */
+
+  /* z index dara aktar upore arekta position er order dewa hoy */
+  z-index: 2;
+  left: 30px;
+  top: 70px
+}
+.img2{
+  /* norachora korbe */
+  position: relative;
+  width: 10%;
+  z-index: 1;
+  left: 0px;
+  top: 100px;
+}
+.img3{
+  /* norachora korbe */
+  position: relative;
+  width: 10%;
+  left: 0px;
+  top: -70px;
+
+}
